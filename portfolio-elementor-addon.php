@@ -8,7 +8,7 @@ Author: Krinav Chaudhari
 
 // Register the new widget category
 
-add_action('elementor/elements/categories_registered', function ($elements_manager) {
+add_action( 'elementor/elements/categories_registered', function ( $elements_manager ) {
     $elements_manager->add_category(
         'vts',
         [
@@ -17,7 +17,7 @@ add_action('elementor/elements/categories_registered', function ($elements_manag
         ]
     );
 
-    error_log('VTS category registered');
+    error_log( 'VTS category registered' );
 });
 
 // Register the widgets
@@ -209,4 +209,3 @@ function fetch_filtered_posts() {
     echo json_encode(array('posts_html' => $posts_html, 'has_more' => $has_more, 'total_results' => $total_results));
     wp_die();
 }
-
