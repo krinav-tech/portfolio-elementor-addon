@@ -37,4 +37,4 @@ This plugin was built quickly to meet an immediate requirement, and while it fun
 This plugin was developed for a specific project and may not work for general use without modification. It requires setup within ACF for specific custom fields and a "portfolio" post type. Users may need to adjust these configurations based on their own setup.
 
 ### Screenshot
-![Plugin Screenshot](screenshot.png)
+![Plugin Screenshot](Screenshot.png)
