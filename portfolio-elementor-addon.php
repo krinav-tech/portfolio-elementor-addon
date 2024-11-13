@@ -25,4 +25,5 @@ function portfolio_plugin_instance(){
 
     \PORTFOLIO_PLUGIN\Inc\PORTFOLIO_ELEMENTOR_ADDON_PLUGIN::get_instance();
 }
+
 portfolio_plugin_instance();
